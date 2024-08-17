@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/regatte/workspaces/turtlebot4/install/turtlebot4_node/include/**",
+        "/home/regatte/workspaces/turtlebot4/install/turtlebot4_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/regatte/workspaces/isaac_ros-dev/src/isaac_ros_common/isaac_ros_common/include/**",
+        "/home/regatte/workspaces/isaac_ros-dev/src/isaac_ros_mission_client/isaac_ros_vda5050_nav2_client/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

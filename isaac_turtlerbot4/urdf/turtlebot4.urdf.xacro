@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<robot name="turtlebot4" xmlns:xacro="http://ros.org/wiki/xacro">
+  <!-- Base create3 model -->
+  <xacro:include filename="$(find irobot_create_description)/urdf/create3.urdf.xacro" />
+  <xacro:include filename="$(find isaac_turtlerbot4)/urdf/weight_block.urdf.xacro" />
+  <!-- standoff xacro imports-->
+  <xacro:include filename="$(find isaac_turtlerbot4)/urdf/standoff/back_left_lidar_arm.urdf.xacro" />
+  <xacro:include filename="$(find isaac_turtlerbot4)/urdf/standoff/back_right_lidar_arm.urdf.xacro" />
+  <xacro:include filename="$(find isaac_turtlerbot4)/urdf/standoff/front_left_lidar_arm.urdf.xacro" />
+  <xacro:include filename="$(find isaac_turtlerbot4)/urdf/standoff/front_right_lidar_arm.urdf.xacro" />
+  <xacro:include filename="$(find isaac_turtlerbot4)/urdf/standoff/right_camera_arm.urdf.xacro" />
+  <xacro:include filename="$(find isaac_turtlerbot4)/urdf/standoff/left_camera_arm.urdf.xacro" />
+
+  <!-- parts -->
+  <xacro:include filename="$(find isaac_turtlerbot4)/urdf/lidar_mount.urdf.xacro" />
+  <xacro:include filename="$(find isaac_turtlerbot4)/urdf/lidar_scaffold.urdf.xacro" />
+  <xacro:include filename="$(find isaac_turtlerbot4)/urdf/camera_bracket.urdf.xacro" />
+
+  <xacro:property name="standoff_z"                value="${-0.07588}" />
+  <!-- weight blocks-->
+  <xacro:property name="weight_x_offset"               value="${6.005267*cm2m}"/>
+  <xacro:property name="weight_y_offset"               value="${8.758841*cm2m}"/>
+  <xacro:property name="bottom_weight_z_offset"        value="${9.788546*cm2m}"/>
+  <xacro:property name="top_weight_z_offset"           value="${10.688546*cm2m}"/>
+
+  <xacro:weight_block name="front_left_bottom_weight_block">
+    <origin xyz="${weight_x_offset} ${weight_y_offset} ${bottom_weight_z_offset}"/>
+  </xacro:weight_block>
+
+  <xacro:weight_block name="front_left_top_weight_block">
+    <origin xyz="${weight_x_offset} ${weight_y_offset} ${top_weight_z_offset}"/>
+  </xacro:weight_block>
+
+  <xacro:weight_block name="front_right_bottom_weight_block">
+    <origin xyz="${weight_x_offset} ${-weight_y_offset} ${bottom_weight_z_offset}"
+            rpy="${pi} 0 0"/>
+  </xacro:weight_block>
+
+  <xacro:weight_block name="front_right_top_weight_block">
+    <origin xyz="${weight_x_offset} ${-weight_y_offset} ${top_weight_z_offset}"
+            rpy="${pi} 0 0"/>
+  </xacro:weight_block>
+
+  <!-- custom tower definition -->
+
+  <!-- bottom chassis plate-->
+  <joint name="chassis_plate_bottom_link_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="chassis_plate_bottom_link"/>
+    <origin xyz="-0.03 0 0.09809" rpy="0 0 0"/>
+  </joint>
+  
+  <link name="chassis_plate_bottom_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="${-pi/2} ${-pi/2} 0"/>
+      <geometry>
+        <mesh filename="package://turtlebot4_description/meshes/custom_tower/main_structure/chassis.stl" scale="0.1 0.1 0.1" />
+      </geometry>
+    </visual>
+    <collision name="chassis_plate_bottom_collision">
+      <geometry>
+        <mesh filename="package://turtlebot4_description/meshes/custom_tower/main_structure/chassis.stl" scale="0.1 0.1 0.1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <inertia ixx="0.00281295367" ixy="-0.00000137675" ixz="-0.00005790057"
+	             iyy="0.00164666421" iyz="0.00000564466" izz="0.00424540124" />
+    </inertial>`
+  </link>
+
+  <gazebo reference="chassis_plate_bottom_link">
+    <xacro:material_black/>
+  </gazebo>
+
+  <!-- top chassis plate-->
+  <link name="chassis_plate_top_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="${-pi/2} ${-pi/2} 0"/>
+      <geometry>
+        <mesh filename="package://turtlebot4_description/meshes/custom_tower/main_structure/chassis.stl" scale="0.1 0.1 0.1" />
+      </geometry>
+    </visual>
+    <collision name="chassis_plate_top_collision">
+      <geometry>
+        <mesh filename="package://turtlebot4_description/meshes/custom_tower/main_structure/chassis.stl" scale="0.1 0.1 0.1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <inertia ixx="0.00281295367" ixy="-0.00000137675" ixz="-0.00005790057"
+	             iyy="0.00164666421" iyz="0.00000564466" izz="0.00424540124" />
+    </inertial>
+  </link>
+  <joint name="chassis_plate_top_link_joint" type="fixed">
+    <parent link="chassis_plate_bottom_link"/>
+    <child link="chassis_plate_top_link"/>
+    <origin xyz="-0.03 0 0.1043" rpy="0 0 0"/>
+  </joint>
+  <gazebo reference="chassis_plate_top_link">
+    <xacro:material_black/>
+  </gazebo>
+
+  <!-- standoff definitions -->
+  <!-- lidar -->
+  <xacro:back_left_lidar_arm name="back_left_lidar_arm_standoff">
+    <origin xyz="-0.07588 0.06498 ${standoff_z}"/>
+  </xacro:back_left_lidar_arm>
+
+  <xacro:back_right_lidar_arm name="back_right_lidar_arm_standoff">
+    <origin xyz="-0.07588 -0.06498 ${standoff_z}"/>
+  </xacro:back_right_lidar_arm>
+
+  <xacro:front_left_lidar_arm name="front_left_lidar_arm_standoff">
+    <origin xyz="0.01197 0.08699 ${standoff_z}"/>
+  </xacro:front_left_lidar_arm>
+
+  <xacro:front_right_lidar_arm name="front_right_lidar_arm_standoff">
+    <origin xyz="0.01197 -0.08699 ${standoff_z}"/>
+  </xacro:front_right_lidar_arm>
+
+  <!-- camera -->
+  <xacro:left_camera_arm name="left_camera_arm_standoff">
+    <origin xyz="0.02463 0.06498 ${standoff_z}"/>
+  </xacro:left_camera_arm>
+
+  <xacro:right_camera_arm name="right_camera_arm_standoff">
+    <origin xyz="-0.02463 -0.06498 ${standoff_z}"/>
+  </xacro:right_camera_arm>
+
+  <!-- lidar scaffold and moutn -->
+  <xacro:lidar_scaffold name="lidar_scaffold">
+    <origin xyz="-0.02905 0.0 0.22466"/>
+  </xacro:lidar_scaffold>
+
+  <xacro:lidar_mount name="lidar_mount">
+    <origin xyz="-0.0304 -0.00076 0.23093"/>
+  </xacro:lidar_mount>
+
+  <!-- camera bracket -->
+  <xacro:camera_bracket name="camera_bracket">
+    <origin xyz="-0.0304 -0.00076 0.23093"/>
+  </xacro:camera_bracket>
+
+</robot>
+

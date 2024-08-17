@@ -1,0 +1,446 @@
+newmtl Material_1
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_2
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_3
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_4
+Kd 0.53 0.55 0.61
+Pr 1.00
+newmtl Material_5
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_6
+Kd 0.53 0.55 0.61
+Pr 1.00
+newmtl Material_7
+Kd 0.53 0.55 0.61
+Pr 1.00
+newmtl Material_8
+Kd 0.53 0.55 0.61
+Pr 1.00
+newmtl Material_9
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_10
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_11
+Kd 0.53 0.55 0.61
+Pr 1.00
+newmtl Material_12
+Kd 0.53 0.55 0.61
+Pr 1.00
+newmtl Material_13
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_14
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_15
+Kd 0.53 0.55 0.61
+Pr 1.00
+newmtl Material_16
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_17
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_18
+Kd 0.53 0.55 0.61
+Pr 1.00
+newmtl Material_19
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_20
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_21
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_22
+Kd 0.53 0.55 0.61
+Pr 1.00
+newmtl Material_23
+Kd 0.53 0.55 0.61
+Pr 1.00
+newmtl Material_24
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_25
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_26
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_27
+Kd 0.53 0.55 0.61
+Pr 1.00
+newmtl Material_28
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_29
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_30
+Kd 0.53 0.55 0.61
+Pr 1.00
+newmtl Material_31
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_32
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_33
+Kd 0.53 0.55 0.61
+Pr 1.00
+newmtl Material_34
+Kd 0.53 0.55 0.61
+Pr 1.00
+newmtl Material_35
+Kd 0.56 0.53 0.44
+Pr 1.00
+newmtl Material_36
+Kd 0.53 0.55 0.61
+Pr 1.00
+newmtl Material_37
+Kd 0.90 0.90 0.90
+d 0.40
+Pr 1.00
+newmtl Material_38
+Kd 0.90 0.90 0.90
+d 0.40
+Pr 1.00
+newmtl Material_39
+Kd 0.90 0.90 0.90
+d 0.40
+Pr 1.00
+newmtl Material_40
+Kd 0.90 0.90 0.90
+d 0.40
+Pr 1.00
+newmtl Material_41
+Kd 0.90 0.90 0.90
+d 0.40
+Pr 1.00
+newmtl Material_42
+Kd 0.90 0.90 0.90
+d 0.40
+Pr 1.00
+newmtl Material_43
+Kd 0.60 0.60 0.60
+d 0.40
+Pr 1.00
+newmtl Material_44
+Kd 0.60 0.60 0.60
+d 0.40
+Pr 1.00
+newmtl Material_45
+Kd 0.60 0.60 0.60
+d 0.40
+Pr 1.00
+newmtl Material_46
+Kd 0.60 0.60 0.60
+d 0.40
+Pr 1.00
+newmtl Material_47
+Kd 0.60 0.60 0.60
+d 0.40
+Pr 1.00
+newmtl Material_48
+Kd 0.60 0.60 0.60
+d 0.40
+Pr 1.00
+newmtl Material_49
+Kd 0.60 0.60 0.60
+d 0.40
+Pr 1.00
+newmtl Material_50
+Kd 0.60 0.60 0.60
+d 0.40
+Pr 1.00
+newmtl Material_51
+Kd 1.00 1.00 1.00
+Pr 1.00
+newmtl Material_52
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_53
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_54
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_55
+Kd 1.00 1.00 1.00
+Pr 1.00
+newmtl Material_56
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_57
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_58
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_59
+Kd 0.99 1.00 1.00
+Pr 1.00
+newmtl Material_60
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_61
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_62
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_63
+Kd 0.99 1.00 1.00
+Pr 1.00
+newmtl Material_64
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_65
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_66
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_67
+Kd 1.00 1.00 1.00
+Pr 1.00
+newmtl Material_68
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_69
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_70
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_71
+Kd 0.99 1.00 1.00
+Pr 1.00
+newmtl Material_72
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_73
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_74
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_75
+Kd 1.00 1.00 1.00
+Pr 1.00
+newmtl Material_76
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_77
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_78
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_79
+Kd 1.00 1.00 1.00
+Pr 1.00
+newmtl Material_80
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_81
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_82
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_83
+Kd 1.00 1.00 1.00
+Pr 1.00
+newmtl Material_84
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_85
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_86
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_87
+Kd 1.00 1.00 1.00
+Pr 1.00
+newmtl Material_88
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_89
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_90
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_91
+Kd 1.00 1.00 1.00
+Pr 1.00
+newmtl Material_92
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_93
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_94
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_95
+Kd 0.98 0.93 0.85
+Pr 1.00
+newmtl Material_96
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_97
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_98
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_99
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_100
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_101
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_102
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_103
+Kd 0.99 1.00 1.00
+Pr 1.00
+newmtl Material_104
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_105
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_106
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_107
+Kd 0.99 1.00 1.00
+Pr 1.00
+newmtl Material_108
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_109
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_110
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_111
+Kd 1.00 1.00 1.00
+Pr 1.00
+newmtl Material_112
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_113
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_114
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_115
+Kd 0.99 1.00 1.00
+Pr 1.00
+newmtl Material_116
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_117
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_118
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_119
+Kd 0.99 1.00 1.00
+Pr 1.00
+newmtl Material_120
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_121
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_122
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_123
+Kd 1.00 1.00 1.00
+Pr 1.00
+newmtl Material_124
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_125
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_126
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_127
+Kd 0.99 1.00 1.00
+Pr 1.00
+newmtl Material_128
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_129
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_130
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_131
+Kd 0.99 1.00 1.00
+Pr 1.00
+newmtl Material_132
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_133
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_134
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_135
+Kd 0.99 1.00 1.00
+Pr 1.00
+newmtl Material_136
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_137
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_138
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_139
+Kd 0.99 1.00 1.00
+Pr 1.00
+newmtl Material_140
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_141
+Kd 0.95 0.90 0.85
+Pr 1.00
+newmtl Material_142
+Kd 1.00 1.00 0.98
+Pr 1.00
+newmtl Material_143
+map_Kd assets/color.jpg
+Pr 1.00
+newmtl Material_144
+Kd 0.86 0.80 0.73
+Pr 1.00

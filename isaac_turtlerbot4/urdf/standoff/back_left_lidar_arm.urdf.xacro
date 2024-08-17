@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+<xacro:macro name="back_left_lidar_arm" params="name parent_link:=chassis_plate_top_link *origin">
+  
+  <xacro:property name="link_name" value="${name}"/>
+  <xacro:property name="joint_name" value="${name}_joint"/>
+
+  <joint name="${joint_name}" type="fixed">
+    <parent link="${parent_link}"/>
+    <child link="${link_name}"/>
+    <xacro:insert_block name="origin"/>
+  </joint>
+
+  <link name="${link_name}">
+    <visual>
+      <origin rpy="${-pi/2} ${-pi/2} 0"/>
+      <geometry>
+       <mesh filename="package://turtlebot4_description/meshes/custom_tower/lidar_structure/back_left_lidar_arm.stl" scale="0.1 0.1 0.1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0"/>
+      <geometry>
+       <mesh filename="package://turtlebot4_description/meshes/custom_tower/lidar_structure/back_left_lidar_arm.stl" scale="0.1 0.1 0.1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <inertia ixx="0.00000019604" ixy="0.0" ixz="0.0"
+	             iyy="0.00005262313" iyz="0.0" izz="0.00005262313" />
+    </inertial>
+  </link>
+
+  <gazebo reference="${joint_name}">
+    <preserveFixedJoint>true</preserveFixedJoint>
+  </gazebo>
+
+  <gazebo reference="${link_name}">
+    <xacro:material_black/>
+  </gazebo>
+</xacro:macro>
+
+</robot>

@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/regatte/workspaces/turtlebot4/install/turtlebot4_tests/lib/python3.10/site-packages",
+        "/home/regatte/workspaces/turtlebot4/install/turtlebot4_navigation/local/lib/python3.10/dist-packages",
+        "/home/regatte/workspaces/turtlebot4/install/turtlebot4_msgs/local/lib/python3.10/dist-packages",
+        "/home/regatte/workspaces/turtlebot4/install/turtlebot4_diagnostics/lib/python3.10/site-packages",
+        "/home/regatte/workspaces/isaac_ros-dev/install/isaac_turtlerbot4/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/regatte/workspaces/turtlebot4/install/turtlebot4_tests/lib/python3.10/site-packages",
+        "/home/regatte/workspaces/turtlebot4/install/turtlebot4_navigation/local/lib/python3.10/dist-packages",
+        "/home/regatte/workspaces/turtlebot4/install/turtlebot4_msgs/local/lib/python3.10/dist-packages",
+        "/home/regatte/workspaces/turtlebot4/install/turtlebot4_diagnostics/lib/python3.10/site-packages",
+        "/home/regatte/workspaces/isaac_ros-dev/install/isaac_turtlerbot4/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
